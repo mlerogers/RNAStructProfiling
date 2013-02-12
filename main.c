@@ -155,8 +155,8 @@ char **args = NULL;
 	args[2] = "1000";
 	args[3] = "-o";
 	args[4] = "output";
-	args[5] = "-t";
-	args[6] = "1";
+	args[5] = "--paramdir";
+	args[6] = "./data/GTparams/";
 	args[7] = argv[argc-1];
 	boltzmann_main(8,args);
   }
